@@ -10,6 +10,7 @@ import pro.sky.telegrambot.listener.TelegramBotUpdatesListener;
 
 @Component
 public class TelegramBotAnswerer {
+
     private Logger logger = LoggerFactory.getLogger(TelegramBotUpdatesListener.class);
     private final TelegramBot telegramBot;
 
